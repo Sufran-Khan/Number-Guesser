@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body id="body-main">
+    
+<H1 id="head">Guess The Number</H1>
+
+    <div id="main">
+    <img id="game-img" src="guess.jpg" alt="Guess The Number">
+
+    <div id="game-box">
+
+        <h5 id="box-head">Guess a Number between 1 and 10</h5>
+
+        <input type="number" placeholder="Enter your Guess" id="game-input" min="1" max="10">
+        <input type="submit"  id="game-submit" placeholder="Submit">
+        <p id="game-result"> </p>
+        <p  id="game-result2"></p>
+
+
+    </div>
+
+    </div>
+
+    <div id="reload-div">
+        <input type="button" id="replaybtn" value="Play Again">
+    </div>
+
+    <div id="disclaimer">Copyright © 2022 SK WebDev Services Private Limited. All rights reserved.
+        Unless otherwise indicated, all materials on these pages are copyrighted by SK WebDev  Services Private Limited. <br> All rights reserved. No part of these pages, either text or image may be used for any purpose.</div>
+    <script src="guess.js"></script>
+</body>
+</html>

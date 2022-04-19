@@ -1,0 +1,91 @@
+#body-main{
+    background-color: rgb(40, 165, 148)
+}
+
+#game-box{
+    border: 2px solid black;
+    width: 480px;
+    height: 250px;
+    /* margin :auto; */
+
+    background-color: darkslategray;
+    /* margin-top: 20px; */
+
+    
+    margin-left: 20px;
+
+    padding-left: 20px;
+
+}
+
+#game-img{
+    border: 2px solid black;
+    width: 300px;
+    height: 250px;
+
+    margin-left: 250px;
+    /* display: block; */
+    /* margin: auto; */
+    
+    
+
+}
+
+#main {
+    display: flex;
+    margin-top: 50px;
+}
+
+#head{
+    /* font-style: oblique
+    ; */
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+    
+}
+
+#box-head{
+    font-size: 17.5px;
+    /* margin-left: 10px; */
+}
+
+#game-input{
+    width: 200px;
+    height: 30px;
+}
+
+#game-submit{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #ffcc00;
+    font-style: italic;
+}
+
+
+#disclaimer{
+    margin-top: 70px;
+    text-align: center;
+}
+
+#reload-div{
+    /* width: 200px; */
+    height: 100px;
+    text-align: center;
+    
+}
+
+#replaybtn{
+    width: 200px;
+    height: 55px;
+    /* background-image: url('download2.png');
+    /* background-size: contain; */
+
+    margin-top: 50px;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: darkslategray;
+    /* display: none; */
+    visibility: hidden;
+} 
